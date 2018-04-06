@@ -9,10 +9,11 @@ tags: oracle 数据库 慕课网
 
 
 ###### 一点关于Oracle数据库的小总结  
+
  
 >本文依据慕课网 [Oracle 数据库开发必备利器路径](https://www.imooc.com/course/programdetail/pid/40)相关课程整理  
 
-#目录
+# 目录
 * 表空间
 * 管理表
 * 操作表中数据
@@ -67,7 +68,8 @@ tags: oracle 数据库 慕课网
     example:  老师没说...
 
 
-3. 创建用户表空间
+3. 创建用户表空间  
+
     **语法：**
     ```
         create tablespace test1_tablespace datafile 'test1file.dbf' size 10m; 
@@ -75,7 +77,8 @@ tags: oracle 数据库 慕课网
         create temporary tablespace teptest1_tablespace tempfile 'tempfile1.dbf' size 10m;
         //创建临时表空间
     ```
-4. 修改用户表空间
+4. 修改用户表空间  
+
     **语法**
     ```
 
@@ -87,7 +90,8 @@ tags: oracle 数据库 慕课网
     //查看名为TEST1_TABLESPACE的表空间状态
 
     ```
-5. 修改数据文件
+5. 修改数据文件  
+
      **语法**
     ```
 
@@ -103,19 +107,20 @@ tags: oracle 数据库 慕课网
     //查看名为TEST1_TABLESPACE的表空间中的数据文件
 
     ```
-    >拓展
-    控制文件的扩展名：.ctl，位于oradata\ORCL\CONTROLFILE
+    >拓展：  
+    >控制文件的扩展名：.ctl，位于oradata\ORCL\CONTROLFILE
     日志文件的扩展名：.log，位于oradata\ORCL\ONLINELOG
     数据文件的扩展名：.dbf，位于oradata\ORCL\DATAFILE
 
-6. 删除表空间
+6. 删除表空间  
+
       **语法：**
     ```
         DROP TABLESPACE tablespace_name [INCULDING CONTENTS] 
         //删除表空间 [（可选）包括表空间中的数据文件]
     ```
 
-#管理表
+# 管理表
 1. 认识表
     * 基本储存单元
     * 二维结构
@@ -124,7 +129,7 @@ tags: oracle 数据库 慕课网
         列：每一列叫做“字段”或“域”  
 
     **约定：**
-        **1.  每一列必须具有相同数据类型
+        **1.  每一列必须具有相同数据类型  
         2.  列名唯一
         3.  每一行数据唯一**  
 
@@ -142,7 +147,8 @@ tags: oracle 数据库 慕课网
     >日期型：date（常用）  timestamp（更精确）
 
     >其他类型：blob(以二进制) clob（以字符串）
-3. 创建表
+3. 创建表  
+
    **语法**
    ```
    CREAT TABLE table_name
@@ -168,7 +174,8 @@ tags: oracle 数据库 慕课网
     //查看表的信息
 
     ```
-4. 修改表
+4. 修改表  
+
     **语法**
     ```
     ALTER TABLE tb_name
@@ -211,13 +218,13 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
 
 
 
-#操作表中的数据
+# 操作表中的数据
 1. 操作表中的数据
 2. 复制表数据
 3. 修改表数据
 4. 删除表数据
 
-#约束
+# 约束
 1. 约束概述
 2. 非空约束
 3. 主键约束
