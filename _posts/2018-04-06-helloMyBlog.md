@@ -1,35 +1,38 @@
 ---
 layout: post
-title: 'Hello Jekyll'
+title: 'Hello My First Blog'
 date: 2018-04-06
 author: niuyi
-
-tags: jekyll
+categories: 记录
+tags: blog github 慕课网
 ---
 
-#我的第一篇博客
+# Hello World!
 
 整了一天终于把自己的博客站算是弄好了，用的[GitHub Pages](https://pages.github.com/),简单方便还免费，就是网速...你懂的
 其实早就想弄个人博客了，把自己之前在慕课网上学习的课程和做的小Demo整理一下，总结一下。借着三天假期，先把基础的博客站弄好吧。
-##博客还需要完善的地方
+## 博客还需要完善的地方
 * disqus评论模块加载出错
+
 *整了大半天不知道是哪里出了问题，已经向主题原作者issue了*
 * favicon.ico 无法加载
+
 *这个。。。（捂脸哭），蠢死算了*
 * 没有统计功能
+
 *主题没有提供统计接口，后期自己整明白了自己加上吧*
 
-##博客主要内容
+## 博客主要内容
 * 花式填坑之路
 * 学习总结
 * 一点小感悟
-##近期的主要任务
+## 近期的主要任务
 * 整理慕课网学习笔记、Demo
 * 算法笔迹
 * 记录浪潮优派的学习重点
 * 填坑之路--VS Code 编写运行C/C++代码
 * 小白入门--如何在GitHub创建自己的第一个博客
-##One more thing 
+## One more thing 
 我的第一篇博客就这样结束了吗？
 可是我也不知道该写些啥了
 其实是真的想把自己之前踩过的坑一一整理起来
