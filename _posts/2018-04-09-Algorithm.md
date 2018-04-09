@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '算法笔记（一）'
-date: 2017-04-18
+date: 2018-04-09
 author: 牛一
 cover: 'http://p1.pstatp.com/large/ddb00015d390ad83e21'
 tags: 算法 笔记 C C++ Algorithm 
