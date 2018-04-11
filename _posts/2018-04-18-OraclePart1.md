@@ -49,7 +49,7 @@ tags: oracle 数据库 慕课网
     
     **语法：**
     
-    ```
+    ```c++
     DESC DBA_TABLESPACES;
 
     SELECT tablespace_name FROM DBA_TABLESPACES;
