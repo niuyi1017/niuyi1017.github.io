@@ -83,7 +83,7 @@ tags: oracle 数据库 慕课网
 3. 创建用户表空间  
 
     **语法：**
-    ```
+    ```c++
         
     CREAT TABLESPACE tabelespace_name DATAFILE 'xxx.xx' SIZE XX;
     //创建永久表空间 
@@ -94,7 +94,7 @@ tags: oracle 数据库 慕课网
     ```
 
     **示例**
-    ```
+    ```c++
     create tablespace test1_tablespace datafile 'test1file.dbf' size 10m;    
    //创建名为test1_tablespace的永久表空间，并向其中添加名为'test1file.dbf'大小为10M的文件  
 
@@ -104,7 +104,7 @@ tags: oracle 数据库 慕课网
 4. 修改用户表空间  
 
     **语法**
-    ```
+    ```c++
 
     ALTER TABLESPACE table_name ONLINE | OFFLINE;
     //设置联机或脱机装态，默认为ONLINE  
@@ -120,7 +120,7 @@ tags: oracle 数据库 慕课网
 5. 修改数据文件  
 
      **语法**
-    ```
+    ```c
 
     ALTER TABLESPACE table_name 
     ADD DATEFILE 'xx.dbf' SIZE nn;
@@ -143,7 +143,7 @@ tags: oracle 数据库 慕课网
 6. 删除表空间  
 
       **语法：**
-    ```
+    ```c
         DROP TABLESPACE tablespace_name [INCULDING CONTENTS] 
         //删除表空间 [（可选）包括表空间中的数据文件]
     ```
@@ -178,7 +178,7 @@ tags: oracle 数据库 慕课网
 3. 创建表  
 
    **语法**
-   ```
+   ```c
    CREAT TABLE table_name
    (
        col_name1 datatype,
@@ -189,7 +189,7 @@ tags: oracle 数据库 慕课网
    
    **示例**
     
-    ```
+    ```c
     create table userinfo
     (id number(6,0),
     username varchar2(20),
@@ -205,7 +205,7 @@ tags: oracle 数据库 慕课网
 4. 修改表  
 
     **语法**
-    ```
+    ```c
     ALTER TABLE tb_name
 
     [ADD column_name datatype]
@@ -224,7 +224,7 @@ tags: oracle 数据库 慕课网
     ```
 
     **示例**
-    ```
+    ```c
     alter table userinfo add remarks varchar2(500);
     //添加remarks字段（列），数据类型为 varchar2 空间大小为500
     alter table userinfo modify remarks varchar2(400);
@@ -250,14 +250,14 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
 1. 操作表中的数据  
     * 向表中插入数据  
         **语法**  
-        ```
+        ```c
         INSERRT INTO table_name 
         (column1,column2,column3....)
         VALUES(value1,value2,value3...)
 
         ```
         **示例**
-        ```
+        ```c
         
         insert into userinfo
         values(1,'xxx','123','xxx@126.com',sysdate);
@@ -284,7 +284,7 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
 2. 复制表数据
     * 在创建表的时候复制其他表的数据
         **语法**
-        ```
+        ```c
         CREAT TABLE new_table
         AS
         SELECT  column1...|* FROM old_table
@@ -292,7 +292,7 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
         ```
 
         **示例**
-        ```
+        ```c
         create table userinfo_new as select * from userinfo;
         //创建了useringfo_new 的表，结构和数据均是由userinfo表复制而来
         create table userinfo_new1 as select id,username from userinfo;
@@ -300,14 +300,14 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
         ```  
     * 在向表插入数据时复制其他表的数据
         **语法**
-        ```
+        ```c
         INERT INTO new_table
         [(column1,...)]
         SELECT  column1... |* FROM old_table
         ```
 
         **示例**
-        ```
+        ```c
         insert into userinfo_new select * from userinfo;
         //向userinfo_new表中插入数据，数据均来自userinfo  
 
@@ -317,13 +317,13 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
 
 3. 修改表数据  
     **语法**
-    ```
+    ```c
     UPDATE table_name 
     SET column1  = value1,...
     [WHERE conditions]
     ```
     **示例**
-    ```
+    ```c
     update userinfo set userpwd='111111';
     //将useinfo表中的userpwd全部重置为'111111'
 
@@ -336,12 +336,12 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
     ```
 4. 删除表数据
     **语法**
-   ```
+   ```c
     DELETE FROM table_name [WHERE condition]
     ```
 
     **示例**
-    ```
+    ```c
     delete from testdel;
     //删除 testdel表中的所有数据
     delete from userinfo where username='yyy';
@@ -351,12 +351,12 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
 
 # 约束
 1. 约束概述
-    ```
+    ```c
     作用：定义规则，确保数据完整性  
     Oracle五个重要的约束：非空约束 主键约束 外键约束 唯一约束 检查约束
     ```
 2. 非空约束
-    ```
+    ```c
     CREATE TABLE  table_name(column_name DATATYPE NOT NULL,...);
     //在创建表时设置非空约束  
 
@@ -375,7 +375,7 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
     * 在创建表时添加主键约束--约束的名字是唯一的，不写系统会随机分配一个约束名
 
         **语法**
-        ```
+        ```c
         CREAT TBALE table_name 
         (column_name1 DATATYPE PRIMARY KEY,
         column_name2 DATATYPE );
@@ -388,7 +388,7 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
 
         ```
         **示例**
-        ```
+        ```c
         create table userinfo_p(id number(6,0) primary key,
         username varchar2(20),
         userpwd varchar2(20));
@@ -411,13 +411,13 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
 
     * 在修改表时添加主键约束
         **语法**
-        ```
+        ```c
         ALTER TABLE table_name  
         ADD CONSTRAINT constraint_name PRIMARY KEY(column_name);
         //在修改表时添加主键约束
         ```
         **示例**
-        ```
+        ```c
         alter table userinfo
         add constraint pk_id primary key(id);
         //为表名为userinfo的表中的id字段添加名为pk_id的主键约束
@@ -425,20 +425,20 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
 
     * 更改约约束名称
         **语法**
-        ```
+        ```c
         ALTER TABLE table_name 
         RENAME CONSTRAINT old_constraint_name TO new_constraint_name;
         //更改约束名称
         ```
     * 禁用/启用约束
         **语法**
-        ```
+        ```c
         ALTER TABLE table_name 
         DISABLE | ENABLE CONSTRAINT constraint_name;
         //禁用(启用)约束
     * 删除主键约束
         **语法**
-        ```
+        ```c
         ALTRT TABLE table_name
         DROP CONSTRIANT constraint_name;
         //删除约束
@@ -449,7 +449,7 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
         
         ```
          >如果忘记了约束的名字，可以通过以下命令来查看
-        ```
+        ```c
         SELECT CONSTRAINT_NAME,CONSTRAINT_TYPE,STATUS 
         FROM USER_CONSTRAINTS 
         WHERE TABLE_NAME='XXXXXX';
@@ -457,7 +457,7 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
 5. 外键约束
    * 添加外键约束(约束的名字是唯一的，不写系统会随机分配一个约束名)
     **语法（列级）**
-        ``` 
+        ```c 
         CREATE TABLE table1
         (
             column_name DATATYPE 
@@ -468,7 +468,7 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
         (table1是从表，table2是主表；主从表中相应的字段必须是同一个数据类型；从表中外键字段的值必须来自主表中的相应字段的值，或为null)
         ```
         **示例**
-        ```
+        ```c
         create table typeinfo
         (tyoeid varchar2(10) primary key,
         typename varchar2(20));
@@ -481,7 +481,7 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
         //创建从表
         ```
         **语法（表级）**
-        ```
+        ```c
         CREAT TABLE table_name
         (column_name DATATYPE,
         CONSTRAINT constraint_name FOREIGN KEY(colunnm_name)
@@ -489,7 +489,7 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
         //在创建表时添加外键约束(表级)  ON DELETE CASCADE 表示级联删除，即主表中的数据删除后，从表中的数据也将一同删除
         ```
         **示例**
-        ```
+        ```c
         create table userinfo_f2
         (id varchar2(10) primary key,
         username varchar2(20),
@@ -499,14 +499,14 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
         //在创建userinfo_f2时，将typeid_new 字段设置外键约束，参考typeinfo表中的typeid字段
         ```
      **语法（在修改表时设置外键约束）**
-        ```
+        ```c
         ALTER TABLE table_name 
         ADD CONSTRAINT constraint_name
         FOREIGN KEY (column_name) REFERENCE table_name(column_name)
         [ON DELETE SASCADE];
         ```
       **示例（在修改表时设置外键约束）**
-      ```
+      ```c
         alter table userinfo_f4 
         add constraint fk_typeid_alter 
         foreign key(typeid_new) references typeinfo(typeid);
@@ -515,7 +515,7 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
         
     * 删除外键约束：
         **语法**
-        ```
+        ```c
         ALTER TABLE table_name 
         DISABLE | ENABLE CONSTRAINT constranin_name;
         //禁用/启用 外键约束
@@ -526,7 +526,7 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
 
         ```
         >如果忘记了约束的名字，可以通过以下命令来查看
-        ```
+        ```c
         SELECT CONSTRAINT_NAME,CONSTRAINT_TYPE,STATUS 
         FROM USER_CONSTRAINTS 
         WHERE TABLE_NAME='XXXXXX';
@@ -545,13 +545,13 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
 
     * 在创建表时设置唯一约束（列级）
         **语法**
-    ```
+    ```c
     CREATE TABLE table_name
     (column_name datatype UNIQUE,...);
     ```
     * 在创建表时设置唯一约束（表级）
         **语法**
-    ```    
+    ```c    
     CREATE TABLE table_name
     (column_name datatype,...,
     CONSTRAINT u_name UNIQUE(column_name));
@@ -563,13 +563,13 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
     
     * 在修改表时添加唯一约束 
         **语法**
-        ```
+        ```c
         ALTER TABLE table_name
         ADD CONSTRAINT condtraint_name
         UNIQUE(column_name);
     * 删除唯一约束：
         **语法**
-        ```
+        ```c
         ALTER TABLE table_name 
         DISABLE | ENABLE CONSTRAINT constranin_name;
         //禁用/启用 唯一约束
@@ -580,7 +580,7 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
 
         ```
         >如果忘记了约束的名字，可以通过以下命令来查看
-        ```
+        ```c
         SELECT CONSTRAINT_NAME,CONSTRAINT_TYPE,STATUS 
         FROM USER_CONSTRAINTS 
         WHERE TABLE_NAME='XXXXXX';
@@ -592,7 +592,7 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
     注：检查约束在一张表中也是可以有多个的。<br>
     * 在创建表时添加检查约束
         **语法(列级)**
-        ```
+        ```c
         CREATE TABLE table_name
         (column_name datatype 
         CHECK(expressions),...);
@@ -609,14 +609,14 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
 
         
         **示例（列级）**
-        ```
+        ```c
         create table userinfo_c
         (id varvhar2(10) primary key,
         username varchar2(20), 
         salary number(5,0) check(salary>0));
         ```
         **语法（表级）**
-        ```
+        ```c
         CREATE TABLE table_name
         (column_name datatype,...,
         CONSTRAINT c_name
@@ -625,7 +625,7 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
         
 
         **示例(表级)**
-        ```
+        ```c
         create table userinfo_c1
         (id varchar2(10) primary key,
         username varchar2(20),
@@ -634,14 +634,14 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
         ```
     * 在修改表时添加检查约束
         **语法**
-        ```
+        ```c
         alter table userinfo_c3 add constraint ck_salary_new check(salary>0);
         ALTER TABLE table_name
         ADD CONSTRAINT constraint_name
         CHECKED(expressions)
         ```
         **示例**
-        ```
+        ```c
         alter table userinfo_c3 
         add constraint ck_salary_new 
         check(salary>0);
@@ -649,7 +649,7 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
     * 删除检查约束
         
         **语法**
-        ```
+        ```c
         ALTER TABLE table_name 
         DISABLE | ENABLE CONSTRAINT constranin_name;
         //禁用/启用 检查约束
@@ -660,7 +660,7 @@ delete from tb_name：删除表中的记录，数据可恢复；（可以添加w
 
         ```
         >如果忘记了约束的名字，可以通过以下命令来查看
-        ```
+        ```c
         SELECT CONSTRAINT_NAME,CONSTRAINT_TYPE,STATUS 
         FROM USER_CONSTRAINTS 
         WHERE TABLE_NAME='XXXXXX';
