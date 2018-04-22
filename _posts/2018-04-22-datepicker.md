@@ -6,9 +6,12 @@ author: niuyi
 categories: 记录  
 cover: 'http://p7kyjkmgh.bkt.clouddn.com/97.jpg'
 tags: 慕课网 前端 组件 datePicker 扁平化
----
+---  
+
 
 > 一个简单的扁平化组件——datePicker日期选择器  
+  
+  
   
 
 
