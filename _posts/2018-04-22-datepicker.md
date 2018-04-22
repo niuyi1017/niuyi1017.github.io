@@ -1,30 +1,17 @@
 ---
 layout: post
-title: 'Oracle 数据库知识点总结（一）'
-date: 2018-04-06
-author: niuyi
-categories: 记录
-tags: oracle 数据库 慕课网 
----
-
-#### 一点关于Oracle数据库的小总结  
-
- 
->本文依据慕课网 [Oracle 数据库开发必备利器路径](https://www.imooc.com/course/programdetail/pid/40)相关课程整理。共分3篇。  
-包含Oracle数据库的相关概念、对比、语法，示例等。其中语法部分为方便起见，关键字使用大写，并且使用了较多的换行。实际开发时Oracle对大小写（部分表名等须大写的除外）、换行区分不是很严格，可以依据个人习惯进行书写。  
-  
----
-layout: post
 title: '前端组件——datePicker 日期选择器'
 date: 2018-04-22
 author: niuyi
 categories: 记录  
 cover: 'http://p7kyjkmgh.bkt.clouddn.com/97.jpg'
-tags: 慕课网 前端 组件 datePicker 扁平化
+tags: 慕课网 前端 组件 datePicker 扁平化 
 ---  
 
 
 > 一个简单的扁平化组件——datePicker日期选择器  
+  
+  根据慕课网[DatePicker组件开发](https://www.imooc.com/learn/820)一课做的demo
   
   
   
