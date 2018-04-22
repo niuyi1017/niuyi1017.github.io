@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '前端组件——datePicker 日期选择器'
-date: 2018-04-022
+date: 2018-04-22
 author: niuyi
 categories: 记录  
 cover: 'http://p7kyjkmgh.bkt.clouddn.com/97.jpg'
