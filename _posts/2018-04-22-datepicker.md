@@ -35,6 +35,7 @@ cover: 'http://p7kyjkmgh.bkt.clouddn.com/97.jpg'
 ```HTML
 <script src="js/date.js" type="text/javascript" charset="utf-8"></script>  
 <script src="js/datePicker.js" type="text/javascript" charset="utf-8"></script>  
+```
 
 3. 在html里创建一个input，在js里调用datePicker.init()，参数为你的input
 ```HTML
