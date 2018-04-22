@@ -8,7 +8,7 @@ cover: 'http://p7kyjkmgh.bkt.clouddn.com/97.jpg'
 tags: 慕课网 组件 前端 datePicker
 ---
   
-### 一个简单的扁平化组件——datePicker日期选择器  
+### 一个简单的扁平化组件——DatePicker日期选择器  
 
 ## 效果图 
 
