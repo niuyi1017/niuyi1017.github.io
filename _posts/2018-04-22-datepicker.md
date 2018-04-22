@@ -7,7 +7,11 @@ tags: 前端 组件化 慕课网 datePicker
 author: niuyi  
 cover: 'http://p7kyjkmgh.bkt.clouddn.com/97.jpg'
 ---  
-
+  
+    
+  
+  
+  
 #### 一个简单的前端组件 —— datePicker 日期选择器  
   
   
@@ -24,8 +28,9 @@ cover: 'http://p7kyjkmgh.bkt.clouddn.com/97.jpg'
 ## 使用方法  
 1. 引入datePicker.css 文件  
 ```HTML
- <link rel="stylesheet" type="text/css" href="css/datePicker.css"/>
-``` 
+ <link rel="stylesheet" type="text/css" href="css/datePicker.css"/>  
+```  
+
 2. 引入 date.js文件、datePicker.js 文件 
 ```HTML
 <script src="js/date.js" type="text/javascript" charset="utf-8"></script>  
