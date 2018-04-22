@@ -7,19 +7,9 @@ tags: 前端 组件化 慕课网 datePicker
 author: niuyi  
 cover: 'http://p7kyjkmgh.bkt.clouddn.com/97.jpg'
 ---  
-  
-    
-  
-  
-  
-#### 一个简单的前端组件 —— datePicker 日期选择器  
-  
-  
-  
-  
-  
 
- 
+> 一个简单的扁平化前端组件——datePicker.
+
 ## 效果图 
 
 
