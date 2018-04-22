@@ -6,16 +6,10 @@ author: niuyi
 categories: 记录  
 cover: 'http://p7kyjkmgh.bkt.clouddn.com/97.jpg'
 tags: 慕课网 前端 组件 datePicker 扁平化 
----  
-
+---
 
 > 一个简单的扁平化组件——datePicker日期选择器  
   
-  根据慕课网[DatePicker组件开发](https://www.imooc.com/learn/820)一课做的demo
-  
-  
-  
-
 
 ## 效果图 
 
