@@ -9,6 +9,11 @@ cover: 'http://p7kyjkmgh.bkt.clouddn.com/97.jpg'
 ---  
 
 #### 一个简单的前端组件 —— datePicker 日期选择器  
+  
+  
+  
+  
+  
 
  
 ## 效果图 
@@ -18,21 +23,23 @@ cover: 'http://p7kyjkmgh.bkt.clouddn.com/97.jpg'
 
 ## 使用方法  
 1. 引入datePicker.css 文件  
-
-> <link rel="stylesheet" type="text/css" href="css/datePicker.css"/>
-  
-2. 引入 date.js文件、datePicker.js 文件  
-><script src="js/date.js" type="text/javascript" charset="utf-8"></script>  
-><script src="js/datePicker.js" type="text/javascript" charset="utf-8"></script>  
+```HTML
+ <link rel="stylesheet" type="text/css" href="css/datePicker.css"/>
+``` 
+2. 引入 date.js文件、datePicker.js 文件 
+```HTML
+<script src="js/date.js" type="text/javascript" charset="utf-8"></script>  
+<script src="js/datePicker.js" type="text/javascript" charset="utf-8"></script>  
 
 3. 在html里创建一个input，在js里调用datePicker.init()，参数为你的input
->
-><h3>请选择日期</h3>
-><input type="text" class="datepicker" />
+```HTML
+<h3>请选择日期</h3>
+<input type="text" class="datepicker" />
 
-><script type="text/javascript">
+<script type="text/javascript">
 	datepicker.init('.datepicker');
-></script>
+</script>
+```
  
 
 ## 主要过程 
