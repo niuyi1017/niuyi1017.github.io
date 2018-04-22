@@ -27,25 +27,13 @@ cover: 'http://p7kyjkmgh.bkt.clouddn.com/97.jpg'
 
 ## 使用方法  
 1. 引入datePicker.css 文件  
-```HTML
- <link rel="stylesheet" type="text/css" href="css/datePicker.css"/>  
-```  
+![css](http://p7kyjkmgh.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20180422195619.png)
 
-2. 引入 date.js文件、datePicker.js 文件 
-```HTML
-<script src="js/date.js" type="text/javascript" charset="utf-8"></script>  
-<script src="js/datePicker.js" type="text/javascript" charset="utf-8"></script>  
-```
+2. 引入 date.js文件、datePicker.js 文件  
+在html里创建一个input，在js里调用datePicker.init()，参数为你的input
+![js](http://p7kyjkmgh.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20180422195639.png)
 
-3. 在html里创建一个input，在js里调用datePicker.init()，参数为你的input
-```HTML
-<h3>请选择日期</h3>
-<input type="text" class="datepicker" />
 
-<script type="text/javascript">
-	datepicker.init('.datepicker');
-</script>
-```
  
 
 ## 主要过程 
