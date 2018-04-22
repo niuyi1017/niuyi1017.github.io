@@ -1,15 +1,14 @@
 ---
 layout: post
 title: '前端组件——datePicker 日期选择器'
+subtitle: '一个简单的扁平化组件——datePicker日期选择器'
 date: 2018-04-22
-author: niuyi
-categories: 记录  
+categories: 技术
 cover: 'http://p7kyjkmgh.bkt.clouddn.com/97.jpg'
-tags: 慕课网 前端 组件 datePicker 扁平化 
+tags: 慕课网 组件 前端 datePicker
 ---
-
-> 一个简单的扁平化组件——datePicker日期选择器  
-  
+  
+### 一个简单的扁平化组件——datePicker日期选择器  
 
 ## 效果图 
 
