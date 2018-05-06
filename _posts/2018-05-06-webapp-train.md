@@ -26,7 +26,7 @@ cover: 'http://p7kyjkmgh.bkt.clouddn.com/blue-train-dribbble_1x%20%281%29.jpg'
   
 
 ## 总结  
-1. 用到了JQ Mobile 的form 、ul 和 table 组件 
+###  用到了JQ Mobile 的form 、ul 和 table 组件 
 
 form 用来获取用户输入信息  
 
@@ -51,7 +51,7 @@ var tr = $("<tr></tr>");
 	tr.html(_html);
 	tbody.append(tr);
 ```  
-2. 请求  
+###  请求  
 网络请求使用了jQuery中的封装好的Ajax的get方法  
 
 根据出发站到达站获取车次列表  
