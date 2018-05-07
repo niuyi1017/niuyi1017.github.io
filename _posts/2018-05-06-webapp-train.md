@@ -121,7 +121,8 @@ isAjax = false;
 $.mobile.changePage("#detail");
     
 });
-```  
+```   
+
 ## 需要进的地方  
 1. 跨域问题  
 在本地测试时没有问题，但是上传到GitHub用GitHub Pages打开时出现了跨域的问题 
