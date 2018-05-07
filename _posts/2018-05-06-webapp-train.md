@@ -124,11 +124,12 @@ $.mobile.changePage("#detail");
 ```   
 
 ## 需要进的地方  
-1. 跨域问题  
+1. 跨域问题   
+
 在本地测试时没有问题，但是上传到GitHub用GitHub Pages打开时出现了跨域的问题   
 
 原因是GitHub Pages是HTTPS协议，而Ajax中请求数据的地址并不支持HTTPS协议......  
-2. 功能少    
+2.  功能少    
 
 三个tab形同虚设...  
 
