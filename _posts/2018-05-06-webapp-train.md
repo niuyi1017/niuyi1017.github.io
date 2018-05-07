@@ -22,7 +22,7 @@ cover: 'http://p7kyjkmgh.bkt.clouddn.com/blue-train-dribbble_1x%20%281%29.jpg'
 * 根据车次查询详细信息  
 
 ## 代码 
-已上传到[github](列车时刻表/index.html)  
+已上传到[github](https://github.com/niuyi1017/imooc/tree/master/%E5%88%97%E8%BD%A6%E6%97%B6%E5%88%BB%E8%A1%A8)  
   
 
 ## 总结  
@@ -124,12 +124,12 @@ $.mobile.changePage("#detail");
 ```   
 
 ## 需要改进的地方  
-1.  跨域问题   
+*  跨域问题   
 
 在本地测试时没有问题，但是上传到GitHub用GitHub Pages打开时出现了跨域的问题   
 
 原因是GitHub Pages是HTTPS协议，而Ajax中请求数据的地址并不支持HTTPS协议......  
-2.  功能少    
+*  功能少    
 
 三个tab形同虚设...  
 
