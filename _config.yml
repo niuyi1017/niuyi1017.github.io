@@ -11,7 +11,7 @@ baseurl: ''
 nav:
   home: '/'
   tags: '/tags.html'  
-  Demo: '/imooc/
+  Demo: '/imooc'
 
 # Footer
 footer:
