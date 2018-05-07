@@ -125,17 +125,23 @@ $.mobile.changePage("#detail");
 
 ## 需要进的地方  
 1. 跨域问题  
-在本地测试时没有问题，但是上传到GitHub用GitHub Pages打开时出现了跨域的问题 
+在本地测试时没有问题，但是上传到GitHub用GitHub Pages打开时出现了跨域的问题   
+
 原因是GitHub Pages是HTTPS协议，而Ajax中请求数据的地址并不支持HTTPS协议......  
-2. 功能少  
+2. 功能少    
+
 三个tab形同虚设...  
 
 ## ONE MORE THING  
 
-这个Demo依然是根据慕课网相关教程做的[JQM Web App 列车时刻表](https://www.imooc.com/learn/207)  
-晚上被高数整的有点郁闷...写写代码调节一下心情...
-IDE是Hbuilder，尝试了一下打包为APP的功能...生成了[Android和iOS的安装包](https://pan.baidu.com/s/1BVJ4Kx-i3_w8rGnj74wKAw)...  
-没有配置打包的参数，全是默认的配置，整个项目文件夹全给包进去了额...有点大了...
+这个Demo依然是根据慕课网相关教程做的[JQM Web App 列车时刻表](https://www.imooc.com/learn/207)    
+
+晚上被高数整的有点郁闷...写写代码调节一下心情...  
+
+IDE是Hbuilder，尝试了一下打包为APP的功能...生成了[Android和iOS的安装包](https://pan.baidu.com/s/1BVJ4Kx-i3_w8rGnj74wKAw)...    
+
+没有配置打包的参数，全是默认的配置，整个项目文件夹全给包进去了额...有点大了...  
+
 
 
 
