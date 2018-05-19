@@ -13,7 +13,7 @@ cover: 'http://p7kyjkmgh.bkt.clouddn.com/C360_2018-05-19-11-06-54-390.jpg'
  
 ### 浪潮通信面试回顾  
 
-![](http://p7kyjkmgh.bkt.clouddn.com/C360_2018-05-19-11-11-40-894.jpg)
+
 
 ## 一、笔试  
 
@@ -32,12 +32,15 @@ cover: 'http://p7kyjkmgh.bkt.clouddn.com/C360_2018-05-19-11-06-54-390.jpg'
 下面是回忆起的部分知识点....任重道远啊...  
 
 
-[词法分析器](https://www.cnblogs.com/zyrblog/p/6885922.html)
-[数据库模式](https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%89%E7%BA%A7%E6%A8%A1%E5%BC%8F/8143441?fr=aladdin)
-[关系模式](https://blog.csdn.net/zhq88/article/details/52701113)  
+[词法分析器](https://www.cnblogs.com/zyrblog/p/6885922.html)  
+
+[数据库模式](https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%89%E7%BA%A7%E6%A8%A1%E5%BC%8F/8143441?fr=aladdin)  
+
+[关系模式](https://blog.csdn.net/zhq88/article/details/52701113)    
 [最大扇入扇出数](https://blog.csdn.net/Y673582465/article/details/73835869)  
 [链路状态算法](https://blog.csdn.net/nineteen_/article/details/50347549)
-[集线器](https://baike.baidu.com/item/%E9%9B%86%E7%BA%BF%E5%99%A8/214614) 
+[集线器](https://baike.baidu.com/item/%E9%9B%86%E7%BA%BF%E5%99%A8/214614)  
+
 [进程、主存块、调度算法、缺页](https://blog.csdn.net/zhangleilei4869/article/details/24311501)  
 [死锁条件](https://blog.csdn.net/jyy305/article/details/70077042)  
 完全二叉树、平衡二叉树（AVL）  
@@ -61,16 +64,17 @@ PROXY
 
 第二题当时是想把输入的测试数据先都存放在数组里，然后将数组里的数据排序，结果依次输出。考完又想了一下，可以先判断一下测试数据量，如果测试数据量不大的话，是不是可以用在线处理的方式，边读输入，边排序（插入排序），将结果依次存入数组，最后依次输出。这样可以减少一轮for循环...
   
-刚刚又想了一下，测试数据量大的时候是不是可以用静态链表呢？也是可以实现边读取边排序...  
+刚刚又想了一下，测试数据量大的时候是不是可以用静态链表呢？也是可以实现边读取边排序...    
+![](http://p7kyjkmgh.bkt.clouddn.com/C360_2018-05-19-11-11-40-894.jpg)
 
 ## 二、面试  
 
 第一次正儿八经的面试，还特意去照相馆拍了证件照... 
-1. 自我介绍  
+ 1. 自我介绍  
 
 自我介绍准备的不够充分，全靠临场发挥了，而且还是小组第一个介绍的人，不够条理，侧重点不突出，项目介绍没有详略得当`以为简历上都写了，就不用说太多了，但结果是面试官根本没间仔细阅读你的简历，还是要说一下` 现在后悔死我了...  
 
-2. 提问  
+ 2.  提问  
 
 面试官问的比较简单，常用的DOM操作，JQuery的使用，
 都没有详细的问下去...  
