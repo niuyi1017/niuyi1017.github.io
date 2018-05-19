@@ -6,7 +6,7 @@ categories: 前端
 tags: 前端  interview 浪潮 
 author: 牛一 
 subtitle: '千万不要被这个华丽的标题迷惑了...'
-cover: 'http://p7kyjkmgh.bkt.clouddn.com/C360_2018-05-19-11-06-54-390.jpg'
+cover: 'http://p7kyjkmgh.bkt.clouddn.com/C360_2018-05-19-11-06-54-390_12.jpg'
 ---  
 
 
