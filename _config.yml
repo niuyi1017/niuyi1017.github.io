@@ -12,7 +12,7 @@ nav:
   home: '/'
   tags: '/tags.html'  
   Demo: '/imooc'
-  Easy-Trans:'/Easy-Trans'
+  Easy-Trans: '/Easy-Trans'
 
 # Footer
 footer:
