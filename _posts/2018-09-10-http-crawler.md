@@ -9,14 +9,17 @@ subtitle: '一个用Promise写的http小爬虫'
 cover: 'http://p7kyjkmgh.bkt.clouddn.com/%E6%A2%B5%E9%AB%98%E6%98%9F%E7%A9%BA.jpeg'
 ---  
 
-# node学习（一） http小爬虫 crawler.js  
+
+
+## node学习（一） http小爬虫 crawler.js  
 
 ### 一、实现功能  
 * 爬取慕课网课程基本信息（课程名+学习人数），并排序显示  
-* 爬取每一个课程的章节信息及视频id  
+* 爬取每一个课程的章节信息及视频id 
+
 ### 二、效果图  
 
- ![crawler](http://p7kyjkmgh.bkt.clouddn.com/%E7%88%AC%E8%99%AB.gif)   
+![crawler](http://p7kyjkmgh.bkt.clouddn.com/%E7%88%AC%E8%99%AB.gif)   
 
 ### 三、主要流程    
 
