@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 与鹅厂的第一次接触
-date: 2018-09-26
+date: 2018-10-17
 categories: 前端 面试
 tags: 腾讯 面试 秋招 
 author: 牛一 
