@@ -25,6 +25,7 @@ cover: 'http://pgdwgiv7s.bkt.clouddn.com/%E7%85%A7%E7%89%87%E5%A2%99/blog648ac37
 * 12个静态资源放在CDN设置多少个域名合适  
 * TCP和UDP的区别  
 * 父子元素均未知宽高，如何实现子元素垂直水平居中  
+* 不用border-radius实现圆角  
 * XSS、CSRF原理及防御
 * React 组件生命周期  
 * Redux 作用及原理 
