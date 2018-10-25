@@ -17,6 +17,7 @@ cover: 'http://pgdwgiv7s.bkt.clouddn.com/%E7%85%A7%E7%89%87%E5%A2%99/blog648ac37
 * 实习经历    
 * HTTP1.1与HTTP2.0的区别   
 * HTTP 请求状态码 204 304 504  
+* HTTP升级HTTPS  
 * 304 Not Modified原理 
 * 介绍一下websocket
 * 手写Ajax过程  
