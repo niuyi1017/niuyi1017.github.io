@@ -6,12 +6,12 @@ categories: 前端
 tags: 前端 WEBAPP 慕课网 jQueryMobile
 author: 牛一 
 subtitle: '一个可以查询列车车次信息的WEBAPP'
-cover: 'http://p7kyjkmgh.bkt.clouddn.com/blue-train-dribbble_1x%20%281%29.jpg'
+cover: 'http://blogpic.niuy.xyz/blue-train-dribbble_1x%20%281%29.jpg'
 ---  
 
 ## 效果图 
 
-![Train](http://p7kyjkmgh.bkt.clouddn.com/Train.gif)  
+![Train](http://blogpic.niuy.xyz/Train.gif)  
 
 ## 框架  
 * jquery.mobile-1.4.5  
@@ -30,7 +30,7 @@ cover: 'http://p7kyjkmgh.bkt.clouddn.com/blue-train-dribbble_1x%20%281%29.jpg'
 
 form 用来获取用户输入信息  
 
-![form](http://p7kyjkmgh.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20180506215328.png)   
+![form](http://blogpic.niuy.xyz/QQ%E6%88%AA%E5%9B%BE20180506215328.png)   
 ul 用来承载查询后的车次列表  li 为脚本动态生成  
  ```javascript
  var _html ='<li><a href="#" data-no = "' + that.find("TrainCode").text()+'">'+

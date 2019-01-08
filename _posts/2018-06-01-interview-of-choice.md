@@ -6,7 +6,7 @@ categories: 前端
 tags: 前端  interview 阿里口碑 ES6 Vue 
 author: 牛一 
 subtitle: '阿里口碑旗下辰森世纪前端开发面试回顾'
-cover: 'http://p7kyjkmgh.bkt.clouddn.com/C360_2018-06-03-11-00-13-454.jpg'
+cover: 'http://blogpic.niuy.xyz/C360_2018-06-03-11-00-13-454.jpg'
 ---  
 
 
@@ -30,7 +30,7 @@ cover: 'http://p7kyjkmgh.bkt.clouddn.com/C360_2018-06-03-11-00-13-454.jpg'
 * 回文  
 * 格式化输出（将浮点数12346578.8765432输出为12,345,678.8,765,432)   
 
-![](http://p7kyjkmgh.bkt.clouddn.com/C360_2018-06-03-11-05-31-066.jpg) 
+![](http://blogpic.niuy.xyz/C360_2018-06-03-11-05-31-066.jpg) 
 
 # 二、面试  
 
@@ -85,7 +85,7 @@ cover: 'http://p7kyjkmgh.bkt.clouddn.com/C360_2018-06-03-11-00-13-454.jpg'
 最后只好说了一句“一时间也想不起来要问什么好了，但是又不想错过和技术大牛交流的机会......”   
 下次一定要多准备几个问题  
 
-![](http://p7kyjkmgh.bkt.clouddn.com/C360_2018-06-03-11-08-38-685.jpg)
+![](http://blogpic.niuy.xyz/C360_2018-06-03-11-08-38-685.jpg)
 
 ### 三面回忆  
 

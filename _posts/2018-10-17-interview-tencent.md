@@ -6,7 +6,7 @@ categories: 前端 面试
 tags: 腾讯 面试 秋招 
 author: 牛一 
 subtitle: '2019腾讯秋招面试回顾'
-cover: 'http://pgdwgiv7s.bkt.clouddn.com/%E7%85%A7%E7%89%87%E5%A2%99/blog648ac377gy1fw3cjxy8e9j21kw0w0kfb.jpg'
+cover: 'http://blogpic.niuy.xyz/%E7%85%A7%E7%89%87%E5%A2%99/blog648ac377gy1fw3cjxy8e9j21kw0w0kfb.jpg'
 ---  
 ### 意外惊喜  
 > 10月12号突然收到了腾讯笔试通过的邮件，通知10月17号在北京面试。   

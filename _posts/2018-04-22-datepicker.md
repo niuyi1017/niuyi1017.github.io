@@ -4,7 +4,7 @@ title: '前端组件——datePicker 日期选择器'
 subtitle: '一个简单的扁平化组件——datePicker日期选择器'
 date: 2018-04-22
 categories: 技术
-cover: 'http://p7kyjkmgh.bkt.clouddn.com/97.jpg'
+cover: 'http://blogpic.niuy.xyz/97.jpg'
 tags: 慕课网 组件 前端 datePicker
 ---
   
@@ -12,15 +12,15 @@ tags: 慕课网 组件 前端 datePicker
 ## 效果图 
 
 
-![test image size](http://p7kyjkmgh.bkt.clouddn.com/xiaoguo.gif)  
+![test image size](http://blogpic.niuy.xyz/xiaoguo.gif)  
 
 ## 使用方法  
 1. 引入datePicker.css 文件  
-![css](http://p7kyjkmgh.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20180422195619.png)
+![css](http://blogpic.niuy.xyz/QQ%E6%88%AA%E5%9B%BE20180422195619.png)
 
 2. 引入 date.js文件、datePicker.js 文件  
 在html里创建一个input，在js里调用datePicker.init()，参数为你的input
-![js](http://p7kyjkmgh.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20180422195639.png)
+![js](http://blogpic.niuy.xyz/QQ%E6%88%AA%E5%9B%BE20180422195639.png)
 
 
  

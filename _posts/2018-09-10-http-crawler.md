@@ -6,7 +6,7 @@ categories: Node
 tags: 前端 Node 慕课网 爬虫 HTTP Promise
 author: 牛一 
 subtitle: '一个用Promise写的http小爬虫'
-cover: 'http://p7kyjkmgh.bkt.clouddn.com/%E6%A2%B5%E9%AB%98%E6%98%9F%E7%A9%BA.jpeg'
+cover: 'http://blogpic.niuy.xyz/%E6%A2%B5%E9%AB%98%E6%98%9F%E7%A9%BA.jpeg'
 ---  
 
 
@@ -19,7 +19,7 @@ cover: 'http://p7kyjkmgh.bkt.clouddn.com/%E6%A2%B5%E9%AB%98%E6%98%9F%E7%A9%BA.jp
 
 ### 二、效果图  
 
-![crawler](http://p7kyjkmgh.bkt.clouddn.com/%E7%88%AC%E8%99%AB.gif)   
+![crawler](http://blogpic.niuy.xyz/%E7%88%AC%E8%99%AB.gif)   
 
 ### 三、主要流程    
 

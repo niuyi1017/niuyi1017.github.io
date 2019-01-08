@@ -6,7 +6,7 @@ categories: 前端
 tags: 算法 PAT 笔试 
 author: 牛一 
 subtitle: '【持续更新】积累在刷题过程中常见的小问题和他们的解决办法'
-cover: 'http://p7kyjkmgh.bkt.clouddn.com/69b7d63agy1fvipp4gnztj21hc0p51bx.jpg'
+cover: 'http://blogpic.niuy.xyz/69b7d63agy1fvipp4gnztj21hc0p51bx.jpg'
 ---  
 
 ### 进制转换  
