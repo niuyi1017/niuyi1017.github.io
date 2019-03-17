@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 如何用JavaScript刷算法题
-date: 2018-12-11
+date: 2019-03-17
 categories: 笔记
 tags: Node.js 算法 JavaScript 笔试
 author: 牛一 
