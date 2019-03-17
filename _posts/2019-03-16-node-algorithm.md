@@ -58,7 +58,8 @@ function handle(inputs){
 >输入示例：  
  hello world!  
 输出示例：  
- !dlrow olleh 
+ !dlrow olleh   
+
 ```JavaScript
 const readline = require('readline')
 const rl = readline.createInterface({
@@ -77,7 +78,8 @@ rl.on('line',data => {
 
 function handle(inputs){
   return inputs.split('').reverse().join('')
-}
+}  
+
 ```  
 运行结果：  
 ![reverse](http://blogpic.niuy.xyz/node_stdio/reverse.png)
@@ -237,7 +239,7 @@ function handle(testArr) {
 ![123](http://blogpic.niuy.xyz/node_stdio/123.png)    
 ### 总结  
 
-上面总结几种方法，可以当作解题模板，直接套就可以了。
+上面总结几种方法，可以当作解题模板，直接套就可以了。  
 过程其实很简单，输入 => 处理数据 => 输出  
 如果处理数据部分较为简单，就不用单独封装出函数来处理了  
 另外，oj 系统一般都支持输入一组测试用例接着输出一组结果，不必等所有测试用例都处理完了再将所有结果一起输出    
